@@ -1,3 +1,33 @@
+/*
+#666633;
+#CCCC99;
+#FFFFFF;
+#990033;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
 body {
-	background-color: grey;
+	background-color: #666633;
+	font-family: 'Bellota', cursive;
+}
+.text-center{ text-align: center;}
+
+.section-chat_room{
+	width: 60em;
+	margin: 0 auto;
+}
+
+.input-field{
+	border: 0;
+	border-radius: 0.4em;
+
+	padding: 1em;
+	width: 80%;
+	margin-bottom: 2em;
+}
+
+.button{
+	border: 0;
+	border-radius: 0.4em;
+
+	padding: 1em 2em;
 }

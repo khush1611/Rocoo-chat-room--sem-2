@@ -9,16 +9,23 @@
 		<link rel="stylesheet" href="css/index.css">
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<section class="section-chat_room">
+			<h1 class="text-center">Login to enter the chat room</h1>
+			<!-- Form: Input field, send button, Messages: ordered list -->
 
-		<!-- Form: Input field, send button, 
-				 Messages: ordered list -->
-		<form id="sendMsg">
-			<input type="text" id="txt">
-			<button type="submit">Send</button>
-		</form>
+			<form id="enterRoom">
+				<input type="text" id="login" class="input-field">
+				<button type="submit" class="button">login</button>
+			</form>
 
-		<ol id="messages"></ol>
+			<form id="sendMsg">
+				<input type="text" id="txt" class="input-field">
+				<button type="submit" class="button">Send</button>
+			</form>
+
+			<ol id="messages"></ol>
+
+		</section> <!--section-chat_room-->
 
 		<script src="/socket.io/socket.io.js"></script>
 		<script src="js/index.js"></script>
